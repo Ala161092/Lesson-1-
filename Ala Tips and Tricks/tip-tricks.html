@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Lesson 22/01/21</h1>
+
+    <div id="intro">
+        <p class="first">
+            This is a paragraph.
+        </p>
+        <p>
+            This is the second paragraph in the important section.
+        </p>
+    </div>
+
+    <p class="first"> 
+        This is not the intro section.
+    </p>
+    <p>
+        This is the second paragraph not in the important section.
+    </p>
+
+
+ <!-- CSS & Selectors
+    Type Selector
+    a type selector is used to on a preexisting element.
+     
+    Id Selector
+    An id selctor can only be assigned to one element.
+    When styling id=#
+    
+    Class Selector
+    When styling class=.
+
+    Targeting a class inside an id KNOWN AS DESCENDENT SELECTORS
+    This can be done by selecting the relevant id and then further selecting the specific class.
+-->
+
+    <style>
+    
+    h1{
+        font-weight: bold;
+        color: blue;
+    }
+
+    #intro {
+        font-weight: initial;
+        color: khaki;
+    }
+
+    .first {
+        text-align: center;
+    }
+
+    #intro .first {
+        background-color: green;
+    }
+    </style>
+
+<!--centering content x and y -->
+    
+</body>
+</html>
